@@ -1,0 +1,18 @@
+project_name: streetsweeper
+builds:
+  - main: ./cmd/main.go
+    binary: streetsweeper
+    goos:
+      - darwin
+      - linux
+    goarch:
+      - amd64
+      - 386
+      - arm
+archive:
+  format: tar.gz
+  replacements:
+    darwin: macOS
+  files:
+    - README.md
+    - LICENSE
