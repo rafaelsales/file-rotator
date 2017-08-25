@@ -1,0 +1,7 @@
+[[constraint]]
+  name = "github.com/fsnotify/fsnotify"
+  revision = "v1.4.2"
+
+[[constraint]]
+  name = "github.com/urfave/cli"
+  revision = "v1.19.1"
