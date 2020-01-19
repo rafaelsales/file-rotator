@@ -1,12 +1,10 @@
-# Street-sweeper
+# File Rotator (old name Street-Sweeper)
 
-Street-sweeper is a program that monitors a directory and removes old files whenever
-the storage use meets certain condition.
+File Rotator is a program that monitors a directory and removes old files whenever the storage use meets certain condition.
 
 # Usage and examples
 
-* When the directory `/var/lib/motion` has used more than 1GB,
-delete oldest video files until it only has 500MB used.
+* When the directory `/var/lib/motion` has used more than 1GB, delete oldest video files until it only has 500MB used.
 
   ```
   pi@raspberrypi:/var/lib/motion $ ~/streetsweeper 1GB 500MB /var/lib/motion
